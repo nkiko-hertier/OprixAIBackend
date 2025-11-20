@@ -95,7 +95,7 @@ app.get("/", (req, res)=> {
   res.send("Hey welcome to OPrix GPT ai")
 })
 
-export default app
+// export default app
 
 app.listen(PORT, () => {
   console.log(`🚀 Server running on http://localhost:${PORT}`);
