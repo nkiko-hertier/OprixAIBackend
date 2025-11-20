@@ -91,7 +91,7 @@ app.post('/api/chat', async (req, res) => {
   }
 });
 
-app.get("", (req, res)=> {
+app.get("/", (req, res)=> {
   res.send("Hey welcome to OPrix GPT ai")
 })
 
