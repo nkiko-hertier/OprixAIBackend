@@ -91,7 +91,10 @@ app.post('/api/chat', async (req, res) => {
   }
 });
 
+export default app
 
 app.listen(PORT, () => {
   console.log(`🚀 Server running on http://localhost:${PORT}`);
 });
+
+
