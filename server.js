@@ -91,6 +91,10 @@ app.post('/api/chat', async (req, res) => {
   }
 });
 
+app.get("", (req, res)=> {
+  res.send("Hey welcome to OPrix GPT ai")
+})
+
 export default app
 
 app.listen(PORT, () => {
